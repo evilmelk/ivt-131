@@ -8,5 +8,13 @@ namespace TestProjectForIVT131
 {
     public class Class1
     {
+
+        /// <summary>
+        /// Инициализирует Class1
+        /// </summary>
+        public Class1()
+        {
+
+        }
     }
 }
