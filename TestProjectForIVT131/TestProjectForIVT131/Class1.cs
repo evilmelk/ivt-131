@@ -22,6 +22,11 @@ namespace TestProjectForIVT131
 		}
 
 
+        /// <summary>
+        /// Конвертирует s в d в строке
+        /// </summary>
+        /// <param name="s"></param>
+        /// <returns></returns>
         internal string ConvertStoD(string s)
         {
             string result = s.Replace('s', 'd');
