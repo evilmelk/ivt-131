@@ -16,5 +16,9 @@ namespace TestProjectForIVT131
         {
 			int t=6;
         }
+		public void d()
+		{
+			Console.Write("sfsa");
+		}
     }
 }
