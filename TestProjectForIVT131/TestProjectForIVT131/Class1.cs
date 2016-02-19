@@ -21,6 +21,7 @@ namespace TestProjectForIVT131
 			Console.Write("sfsa");
 		}
 
+
         internal string ConvertStoD(string s)
         {
             string result = s.Replace('s', 'd');
@@ -28,5 +29,16 @@ namespace TestProjectForIVT131
 
             return result;
         }
+
+		public void Recursia()
+		{
+			d();
+		}
+
+		public static void main()
+		{
+			Recursia();
+		}
+
     }
 }
