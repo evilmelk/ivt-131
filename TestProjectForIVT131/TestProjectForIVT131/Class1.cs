@@ -35,7 +35,7 @@ namespace TestProjectForIVT131
             return result;
         }
 
-		public void Recursia()
+		public static void Recursia()
 		{
 			d();
 		}
