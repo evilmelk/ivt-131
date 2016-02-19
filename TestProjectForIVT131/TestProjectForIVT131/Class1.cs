@@ -20,5 +20,10 @@ namespace TestProjectForIVT131
 		{
 			Console.Write("sfsa");
 		}
+
+        internal string ConvertStoD(string s)
+        {
+            return s.Replace('s', 'd');
+        }
     }
 }
