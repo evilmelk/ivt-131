@@ -20,5 +20,13 @@ namespace TestProjectForIVT131
 		{
 			Console.Write("sfsa");
 		}
+		public void Recursia()
+		{
+			d();
+		}
+		public static void main()
+		{
+			Recursia();
+		}
     }
 }
