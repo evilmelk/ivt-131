@@ -14,7 +14,7 @@ namespace TestProjectForIVT131
         /// </summary>
         public Class1()
         {
-
+			int t=6;
         }
     }
 }
