@@ -23,7 +23,10 @@ namespace TestProjectForIVT131
 
         internal string ConvertStoD(string s)
         {
-            return s.Replace('s', 'd');
+            string result = s.Replace('s', 'd');
+            result = s.Replace('S', 'D');
+
+            return result;
         }
     }
 }
