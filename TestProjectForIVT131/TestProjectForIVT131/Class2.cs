@@ -8,5 +8,6 @@ namespace TestProjectForIVT131
 {
     class Class2
     {
+		int t=2;
     }
 }
